@@ -1,0 +1,127 @@
+
+body {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #000000;
+    overflow-x: hidden;
+    
+}
+.header-nav {
+    padding: 0px;
+    .header-nav_block {
+        width: 212px;
+        height: 16px;
+       
+    }
+}
+.search, .account, .bag {
+    display: inline-block;
+}
+.header-nav_block1 {
+    div {
+        margin-right: 10px;
+    }
+}
+.bg-block {
+    background-color: #000000;
+}
+.block1 {
+    .block1_h {
+        color:#ffffff;
+        padding-top: 55px;
+        padding-left: 80px;
+    }
+    .block1_p {
+        color: #ffffff;
+        padding-top: 126px;
+        padding-left: 80px;
+    }
+    .block1_p1 {
+        color: #ffffff;
+        padding-top: 80px;
+        padding-left: 80px;
+    }
+    .block1_img {
+      
+        width: 720px;
+        height: 620px;
+        top: 92px;
+    }
+}
+.block2 {
+    .block2_h {
+        color: #ffffff;
+        padding-top: 176px;
+        padding-left: 122px;
+    }
+    .block2_p1 {
+        color: #ffffff;
+        padding-top: 25px;
+        padding-left: 122px;
+    }
+    .block2_p2 {
+        color: #ffffff;
+        padding-top: 16px;
+        padding-left: 122px;
+    }
+    .block2_p3 {
+        color: #ffffff;
+        padding-top: 16px;
+        padding-left: 122px;
+    }
+    .block2_img {
+        padding-top: 80px;
+        padding-left: 40px;
+    }
+    .block2_p1:before {
+        content: "";
+        background-image: url('../img/untitled.png');
+        width: 9px;
+        height: 27px;
+    }
+}
+.block3 {
+    .block3_p {
+        color: #ffffff;
+        font-size: 40px;
+        padding-top: 172px;
+        padding-left: 80px;
+    }
+    .block3_img {
+        padding-top: 80px;
+        padding-right: 40px;
+    }
+}
+
+ @media(max-width: 768px) {
+     .search, .account {
+         display: none;
+     }
+     .header-nav_block {
+         padding-left: 35px;
+     }
+     .block1 {
+       .block1_h, .block1_p, .block1_p1 {
+          padding-left: 10px;;
+     }
+    }
+    .block2 {
+        .block2_img {
+            padding: 0px;
+        }
+        .block2_h, .block2_p1, .block2_p2, .block2_p3 {
+            padding: 0px;
+        } 
+    } 
+    .block3 {
+        .block3_img {
+            padding: 0px;
+        }
+        .block3_p {
+            padding: 0px;
+        }
+    }
+}
