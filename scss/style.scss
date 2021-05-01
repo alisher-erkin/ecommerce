@@ -95,6 +95,48 @@ body {
         padding-right: 40px;
     }
 }
+.block4_h {
+    padding-top: 80px;
+}
+.block4 {
+    padding-top: 42px;
+    margin-bottom: 94px;
+}
+.checked {
+    color: orange;
+}
+.block4 {
+    h5 {
+        padding-top: 8px;
+    }
+    p {
+        padding: 8px 0;
+    }
+}
+input{
+    border: 0;
+    border-bottom: 1px solid #000;
+    background-color: rgba(0,0,0,0);
+    outline: 0;
+}
+.block5 {
+    padding-top: 80px;
+    .block5_h {
+        padding-left: 155px;
+    }
+    .block5_p {
+        padding-top: 29px;
+        padding-left: 155px;
+    }
+    .input {
+        padding-left: 155px;
+    }
+}
+.img_footer {
+    background: #F1F1F1;
+    position: absolute;
+    top: 2500px;
+}
 
  @media(max-width: 768px) {
      .search, .account {
