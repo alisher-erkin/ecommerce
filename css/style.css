@@ -31,7 +31,7 @@ $font-a:
 }
 */
 body {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', 'Work Sans', Oswald;
   font-style: normal;
   font-size: 16px;
   line-height: 1.2;
@@ -210,7 +210,12 @@ input {
 
 .footer {
   position: relative;
-  background: #F1F1F1; }
+  background: #F1F1F1;
+  padding-left: 0px;
+  padding-right: 0px; }
+  .footer .footer-letters {
+    position: absolute;
+    top: 170px; }
 
 @media (min-width: 650px) {
   .containerMobile {
@@ -266,7 +271,10 @@ input {
   .block5 .block5_block2 {
     padding-top: 25px; }
   .footer {
-    background: #F1F1F1; }
+    background: #F1F1F1;
+    padding-left: 16px; }
+    .footer .footer-letters {
+      top: 730px; }
   .carousel-item .block4_h1 {
     font-family: Oswald;
     font-size: 12px;
