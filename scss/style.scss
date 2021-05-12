@@ -37,7 +37,10 @@ $font-a:
     line-height: 20.1px;
 }
 */
-
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
 body {
     font-family: 'Open Sans', 'Work Sans', Oswald;
     font-style: normal;
