@@ -42,7 +42,7 @@ html, body {
     overflow-x: hidden;
 }
 body {
-    font-family: 'Open Sans', 'Work Sans', Oswald;
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-size: 16px;
     line-height: 1.2;
@@ -194,6 +194,9 @@ body {
     }
     .col-sm-3 {
         padding: 0px 7px;
+    }
+    .block4_star {
+        height: 10px;
     }
 }
 input{
