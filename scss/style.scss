@@ -52,7 +52,7 @@ body {
     
 }
 .header-nav {
-    padding: 0px;
+    padding: 10px 0px 0px 0px; 
     .header-nav_block {
         width: 212px;
         height: 16px;
@@ -81,18 +81,22 @@ body {
     font-family: 'Open Sans';
     font-size: 12px;
     font-weight: normal;
+    letter-spacing: 1.75px;
 }
 .bg-block {
     background-color: #000000;
 }
 .block1 {
     .block1_h {
-        color:#ffffff;
+        color: #FFFFFF;
         padding-top: 55px;
         padding-left: 80px;
         font-family: 'Open Sans';
         font-size: 28px;
         line-height: 36.4px;
+        letter-spacing: 1.8px;
+        font-style: normal;
+        font-weight: 300;
     }
     .block1_p {
         color: #ffffff;
@@ -119,39 +123,56 @@ body {
     }
 }
 .block2 {
-    font-weight: bold;
     .block2_h {
         color: #ffffff;
         padding-top: 176px;
-        padding-left: 122px;
+        padding-left: 93px;
         font-family: 'Open Sans';
-        font-weight: normal;
+        font-weight: lighter;
         font-size: 16px;
         line-height: 26.8px;
     }
     .block2_p1 {
         color: #ffffff;
         padding-top: 17px;
-        padding-left: 122px;
+        padding-left: 95px;
+        font-weight: bold;
         
     }
     .block2_p2 {
         color: #ffffff;
-        padding-left: 122px;
+        padding-left: 95px;
+        font-weight: bold;
     }
     .block2_p3 {
         color: #ffffff;
-        padding-left: 122px;
+        padding-left: 95px;
+        font-weight: bold;
     }
     .block2_img {
         padding-top: 80px;
         padding-left: 40px;
     }
     .block2_p1:before {
-        content: "";
-        background-image: url('../img/untitled.png');
+        content: "/";
+        color: orange;
         width: 9px;
         height: 27px;
+        margin-right: 9px;
+    }
+    .block2_p2:before {
+        content: "/";
+        color: orange;
+        width: 9px;
+        height: 27px;
+        margin-right: 9px;
+    }
+    .block2_p3:before {
+        content: "/";
+        color: orange;
+        width: 9px;
+        height: 27px;
+        margin-right: 9px;
     }
 }
 .block3 { 
@@ -163,6 +184,8 @@ body {
         letter-spacing: $letterSpacing;
         padding-top: 172px;
         padding-left: 80px;
+        font-weight: bold;
+        
     }
     .block3_img {
         padding-top: 80px;
