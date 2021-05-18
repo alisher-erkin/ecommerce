@@ -51,7 +51,7 @@ body {
   .header-nav .nav-text {
     font-family: Oswald;
     font-size: 12px;
-    font-weight: 300;
+    font-weight: lighter;
     text-transform: uppercase;
     letter-spacing: 0.16em; }
 
@@ -59,7 +59,7 @@ body {
   display: inline-block; }
 
 .header-nav_block1 div {
-  margin-right: 10px; }
+  margin-right: 21px; }
 
 .navbar-nav li {
   margin-right: 24px; }
@@ -129,7 +129,10 @@ body {
 .block2 .block2_p3 {
   color: #ffffff;
   padding-left: 95px;
-  font-weight: bold; }
+  font-weight: bold;
+  line-height: 167.5%; }
+  .block2 .block2_p3 .block2_p3_p {
+    padding-left: 18px; }
 
 .block2 .block2_img {
   padding-top: 80px;
