@@ -55,7 +55,7 @@ body {
     padding: 10px 0px 0px 0px; 
     .header-nav_block {
         width: 212px;
-        height: 16px;
+        height: 30px;
        
     }
     .nav-text {
@@ -64,6 +64,9 @@ body {
         font-weight: lighter;
         text-transform: uppercase;
         letter-spacing: 0.16em;
+    }
+    .navbar-brand {
+        padding-left: 40px;
     }
 }
 .search, .account, .bag {
@@ -222,6 +225,18 @@ body {
     }
     .col-sm-3 {
         padding: 0px 7px;
+        position: relative;
+    }
+    .block4_label {
+        width: 90px;
+        height: 28px;
+        position: absolute;
+        top: 10px;
+        left: 19px;
+        background-color: #FFFFFF;
+        font-size: 12px;
+        padding-left: 7px;
+        padding-top: 4px;
     }
     .block4_star {
         height: 10px;

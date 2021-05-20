@@ -47,13 +47,15 @@ body {
   padding: 10px 0px 0px 0px; }
   .header-nav .header-nav_block {
     width: 212px;
-    height: 16px; }
+    height: 30px; }
   .header-nav .nav-text {
     font-family: Oswald;
     font-size: 12px;
     font-weight: lighter;
     text-transform: uppercase;
     letter-spacing: 0.16em; }
+  .header-nav .navbar-brand {
+    padding-left: 40px; }
 
 .search, .account, .bag {
   display: inline-block; }
@@ -195,7 +197,18 @@ body {
   .block4 p {
     padding: 8px 0; }
   .block4 .col-sm-3 {
-    padding: 0px 7px; }
+    padding: 0px 7px;
+    position: relative; }
+  .block4 .block4_label {
+    width: 90px;
+    height: 28px;
+    position: absolute;
+    top: 10px;
+    left: 19px;
+    background-color: #FFFFFF;
+    font-size: 12px;
+    padding-left: 7px;
+    padding-top: 4px; }
   .block4 .block4_star {
     height: 10px; }
 
