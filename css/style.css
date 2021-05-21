@@ -134,7 +134,7 @@ body {
   font-weight: bold;
   line-height: 167.5%; }
   .block2 .block2_p3 .block2_p3_p {
-    padding-left: 18px; }
+    padding-left: 16px; }
 
 .block2 .block2_img {
   padding-top: 80px;
@@ -276,32 +276,66 @@ input {
 @media (max-width: 768px) {
   .search, .account {
     display: none; }
-  .header-nav_block {
-    padding-left: 35px; }
+  .header-nav {
+    padding: 0px; }
+    .header-nav .header-nav_top {
+      background-color: #F1F1F1;
+      padding: 6px 0px;
+      height: 32px; }
+      .header-nav .header-nav_top .nav-text {
+        margin-bottom: 0px; }
+    .header-nav .header-nav_bottom .navbar-toggler {
+      border: 0px;
+      padding: 0px; }
+    .header-nav .header-nav_bottom .navbar-brand {
+      padding-left: 10px; }
+  .header-nav_block1 .bag {
+    margin-right: 0px; }
   .block1 .col-sm-6 {
     padding: 0px 16px; }
-  .block1 .block1_h, .block1 .block1_p {
-    padding-left: 0px; }
+  .block1 .block1_h {
+    padding-left: 0px;
+    font-size: 18px; }
+  .block1 .block1_p {
+    padding-left: 0px;
+    padding-top: 19px; }
   .block1 .block1_p1 {
     padding-left: 0px;
     padding-top: 24px; }
   .block1 .block1_img {
-    width: 265px;
-    height: 318px; }
+    width: 375px;
+    height: 295px; }
   br {
     display: none; }
   .block2 .block2_img {
     padding: 0px; }
-  .block2 .block2_h, .block2 .block2_p1, .block2 .block2_p2, .block2 .block2_p3 {
-    padding: 0px; }
+  .block2 .block2_h {
+    padding: 0px;
+    font-size: 12px; }
+  .block2 .block2_p1, .block2 .block2_p2, .block2 .block2_p3 {
+    padding: 0px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20.1px; }
+  .block2 .block2_p1-text {
+    padding-left: 16px; }
   .block2 .block2_colum2 {
     margin-top: 24px; }
+  .block2 .block2_p3_p {
+    padding-left: 0px; }
+    .block2 .block2_p3_p .block2_p3-text {
+      padding-left: 16px; }
   .block3 {
     padding-top: 64px; }
     .block3 .block3_img {
       padding: 0px; }
     .block3 .block3_p {
-      padding: 0px; }
+      padding: 0px;
+      letter-spacing: 0.08em;
+      line-height: 38px;
+      margin-bottom: 24px; }
+      .block3 .block3_p .block3_p-text {
+        display: block; }
   .block5 .block5_h {
     padding: 0px; }
   .block5 .block5_p {
@@ -320,7 +354,8 @@ input {
     padding-top: 25px; }
   .footer {
     background: #F1F1F1;
-    padding-left: 16px; }
+    padding-left: 16px;
+    margin-bottom: 0px; }
     .footer .footer-letters {
       top: 730px; }
   .carousel-item .block4_h1 {
