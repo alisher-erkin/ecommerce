@@ -5,6 +5,7 @@ h1,
 h2,
 h3,
 h4,
+p,
 ul[class],
 ol[class],
 li,
@@ -111,11 +112,13 @@ body {
 .block2 .block2_p2 {
   color: #ffffff;
   padding-left: 95px;
+  padding-top: 17px;
   font-weight: bold; }
 
 .block2 .block2_p3 {
   color: #ffffff;
   padding-left: 95px;
+  padding-top: 17px;
   font-weight: bold;
   line-height: 167.5%; }
   .block2 .block2_p3 .block2_p3_p {
@@ -212,7 +215,8 @@ input {
     font-weight: normal;
     font-size: 12px;
     line-height: 14px;
-    margin-bottom: 32px; }
+    margin-bottom: 32px;
+    letter-spacing: 0.165em; }
   .block5 h4 {
     font-family: 'Work Sans';
     font-style: normal;
@@ -277,6 +281,8 @@ input {
       border: 0px;
       padding: 0px; }
     .header-nav .header-nav_bottom .navbar-brand {
+      padding-right: 20px;
+      margin-right: 0px;
       padding-left: 10px; }
   .header-nav_block1 .bag {
     margin-right: 0px; }
